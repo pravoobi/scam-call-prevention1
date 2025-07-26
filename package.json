@@ -1,0 +1,27 @@
+{
+  "name": "indian-fraud-call-prevention",
+  "version": "1.0.0",
+  "description": "Comprehensive fraud call prevention app for Indian users with AI-powered spam detection and regional language support",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "fraud-prevention",
+    "spam-detection",
+    "caller-id",
+    "indian-telecom",
+    "ai-powered",
+    "regional-languages"
+  ],
+  "author": "Indian Fraud Call Prevention Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
